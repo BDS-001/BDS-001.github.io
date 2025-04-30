@@ -15,9 +15,9 @@ My portfolio is designed with a retro aesthetic using the Gruvbox color scheme. 
 
 ## Status
 
-🚧 **Currently Under Construction** 🚧
+✅ **Live and Ready to Visit!** ✅
 
-The site is being actively developed and refined. New features and content are being added regularly.
+The site is now live and can be accessed at [BDS-001.github.io](https://BDS-001.github.io). Feel free to explore my projects and professional experience.
 
 ## Featured Project
 
