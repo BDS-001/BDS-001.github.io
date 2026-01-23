@@ -9,13 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <style>
       html, body {
-        background-color: #282828;
         margin: 0;
         padding: 0;
       }
     </style>
-    <script type="module" crossorigin src="/assets/index-BWHHWG4u.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BnMwDCOr.css">
+    <script>
+      // Set theme immediately to prevent flash
+      const theme = localStorage.getItem('theme') || 'retro';
+      document.documentElement.setAttribute('data-theme', theme);
+      document.body.style.backgroundColor = theme === 'rain' ? '#0f172a' : '#282828';
+    </script>
+    <script type="module" crossorigin src="/assets/index-DDrFT5ZB.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CH5GZY07.css">
   </head>
   <body>
     <div id="app"></div>
